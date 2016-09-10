@@ -6,7 +6,7 @@ import javax.validation.constraints.NotNull;
 /**
  * Created by MyWorld on 2016/9/8.
  */
-public class UserId {
+public class UserInfo {
 
     @NotNull(message = "ids是必填项")
     private String ids;
